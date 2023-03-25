@@ -3,14 +3,37 @@
 # Launch the start header of the tool
 ./layout/startHeader.sh
 
-# Script for reconnaissance of a target system
-# Uses Nmap to scan for open ports and discover running services
+# Define functions for menu options
+function nmap_scan() {
+    echo "Runnin nmap scan..."
+    ./scripts/reconnaissance/nmap.sh
+}
 
-# Prompt user to enter IP address of target system
-#read -p "Enter the IP address of the target system: " ip_address
+# Display main menu
+while true
+do
 
-# Use Nmap to scan for open ports on the target system
-#nmap -A $ip_address 
+    # Write in green
+    echo -e "\033[32m"
+    echo "Automated Penetration Testing Tool"
+    echo "----------------------------------"
 
-# Wait for user input to continue
-#read -p "Press Enter to continue..."
+    #Write in default color
+    echo -e "\033[0m"
+    echo "1. Nmap Scan"
+    echo -e "2. Exit\n"
+    read -p "Enter option number: " choice
+
+    case $choice in
+        1)
+            nmap_scan
+            ;;
+        2)
+            exit 0
+            ;;
+        *)
+            echo -e "\nInvalid option. Please enter a valide option."
+            read -p "Press Enter to continue..."
+            ;;
+    esac
+done
