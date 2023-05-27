@@ -1,3 +1,7 @@
+### SECURE - Security Evaluation and Compliance Unified Reporting Engine
+### Auteur : Loïc LIM
+### Date de création : 31/04/2023
+
 import subprocess
 import pyfiglet
 import os

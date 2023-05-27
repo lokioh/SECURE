@@ -60,7 +60,6 @@ Avant d'exécuter le script, assurez-vous d'avoir les éléments suivants :
 
 Le script est composé de plusieurs fonctions pour accomplir différentes tâches :
 
-![execute_command](./layout/img/execute_command.PNG)
-
 - **'execute_command(command, output_file)'** : cette fonction exécute une commande système spécifiée et enregistre la sortie dans un fichier.
 
+![execute_command](./layout/img/execute_command.PNG)
