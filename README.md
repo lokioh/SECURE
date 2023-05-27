@@ -59,3 +59,7 @@ Avant d'exécuter le script, assurez-vous d'avoir les éléments suivants :
 Le script est composé de plusieurs fonctions pour accomplir différentes tâches :
 
 ![Exe code](./layout/gif/Peek%2027-05-2023%2019-19.gif)
+
+- **'execute_command(command, output_file)'** : cette fonction exécute une commande système spécifiée et enregistre la sortie dans un fichier.
+
+![execute_command](./layout/img/execute_command.PNG)
