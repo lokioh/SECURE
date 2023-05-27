@@ -43,3 +43,13 @@ sudo python ./secure.py
 8. Les résultats de chaque commande exécutée sont enregistrés dans des fichiers **'.txt'**.
 9. Un rapport final est généré en rassemblant tous les fichiers **'.txt'** dans un fichier **'resultats.txt'**.
 10. Le rapport final est affiché à l'écran et enregistré dans le répertoire courant.
+
+## Pré-requis
+
+Avant d'exécuter le script, assurez-vous d'avoir les éléments suivants :
+
+- Python installé sur votre système.
+- Les modules Python suivants installés :
+    - **'subprocess'** : vous pouvez l'installer en exécutant la commande **'pip install subprocess'**.
+    - **'pyfiglet'** : vous pouvez l'installer en exécutant la commande **'pip install pyfiglet'**.
+    - **'shodan'**: vous pouvez l'installer en exécutant la commande **'pip install shodan'**.
