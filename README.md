@@ -1,6 +1,6 @@
 # SECURE - Security Evaluation and Compliance Unified Reporting Engine
 
-![SECURE logo](./img/SECURE_logo.png)
+![SECURE logo](./layout/img/SECURE_logo.png)
 
 Ce script est conçu pour effectuer une évaluation de sécurité et générer un rapport unifié des résultats. Il utilise différentes commandes système pour recueillir des informations sur une cible spécifiée, effectuer une recherche Shodan et générer un rapport final.
 
@@ -53,3 +53,9 @@ Avant d'exécuter le script, assurez-vous d'avoir les éléments suivants :
     - **'subprocess'** : vous pouvez l'installer en exécutant la commande **'pip install subprocess'**.
     - **'pyfiglet'** : vous pouvez l'installer en exécutant la commande **'pip install pyfiglet'**.
     - **'shodan'**: vous pouvez l'installer en exécutant la commande **'pip install shodan'**.
+
+## Explication du code
+
+Le script est composé de plusieurs fonctions pour accomplir différentes tâches :
+
+![Exe code](./layout/gif/Peek%2027-05-2023%2019-19.gif)
