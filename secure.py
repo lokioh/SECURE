@@ -49,7 +49,7 @@ def run_shodan(target):
         print(f"[-] Une erreur s'est produite lors de l'exécution de la commande ping : {e}")
 
     # Initialise la clé d'API Shodan
-    shodan_api_key = "N0HuWoSnikLfTDa4VouMpzvrZuWEFdZ3"
+    shodan_api_key = "YOUR_API_KEY"
     api = shodan.Shodan(shodan_api_key)
 
     try:
