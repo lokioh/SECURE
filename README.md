@@ -27,3 +27,19 @@ Le script propose les fonctionnalités suivantes:
 - Génère un rapport final unifié contenant tous les résultats obtenus :
     - Crée un fichier de rapport resultats.txt.
     - Ajoute les résultats de chaque commande exécutée dans le rapport.
+
+## Usage
+
+1. Assurez-vous d'avoir les pré-requis mentionnés ci-dessous.
+2. Placez le script dans un répertoire de votre choix.
+3. Ouvrez un terminal et accédez au répertoire où se trouve le script.
+4. Exécutez le script à l'aide de la commande suivante (en utilisant **'sudo'** pour les privilèges d'administration) :
+```sh
+sudo python ./secure.py
+```
+5. Entrez une adresse IP ou un nom de domaine lorsque vous y êtes invité.
+6. Le script exécute toutes les commandes définies dans le dictionnaire **'command_options'** avec la cible spécifiée. Il est donc très simple d'ajouter de nouvelles commandes si besoin.
+7. Une recherche Shodan est effectuée pour obtenir des informations supplémentaires sur la cible.
+8. Les résultats de chaque commande exécutée sont enregistrés dans des fichiers **'.txt'**.
+9. Un rapport final est généré en rassemblant tous les fichiers **'.txt'** dans un fichier **'resultats.txt'**.
+10. Le rapport final est affiché à l'écran et enregistré dans le répertoire courant.
