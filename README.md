@@ -2,7 +2,7 @@
 
 ![SECURE logo](./layout/img/SECURE_logo.png)
 
-Ce script est conçu pour effectuer une évaluation de sécurité et générer un rapport unifié des résultats. Il utilise différentes commandes système pour recueillir des informations sur une cible spécifiée, effectuer une recherche Shodan et générer un rapport final.
+Ce script est conçu pour effectuer une évaluation de sécurité en automatisant la phase de reconnaissance lors d'un test d'intrusion et générer un rapport unifié des résultats. Il utilise différentes commandes système pour recueillir des informations sur une cible spécifiée, effectuer une recherche Shodan et générer un rapport final.
 
 ## Description 
 
