@@ -37,12 +37,12 @@ Le script propose les fonctionnalités suivantes:
 ```sh
 sudo python ./SECURE/secure.py
 ```
-5. Entrez une adresse IP ou un nom de domaine lorsque vous y êtes invité.
+5. Entrez une adresse IP ou un nom de domaine.
 6. Le script exécute toutes les commandes définies dans le dictionnaire **'command_options'** avec la cible spécifiée. Il est donc très simple d'ajouter de nouvelles commandes si besoin.
 7. Une recherche Shodan est effectuée pour obtenir des informations supplémentaires sur la cible.
 8. Les résultats de chaque commande exécutée sont enregistrés dans des fichiers **'.txt'**.
 9. Un rapport final est généré en rassemblant tous les fichiers **'.txt'** dans un fichier **'resultats.txt'**.
-10. Le rapport final est affiché à l'écran et enregistré dans le répertoire courant.
+10. Le rapport final est enregistré dans le répertoire courant.
 
 ## Pré-requis
 
