@@ -35,7 +35,7 @@ Le script propose les fonctionnalités suivantes:
 3. Ouvrez un terminal et accédez au répertoire où se trouve le script.
 4. Exécutez le script à l'aide de la commande suivante (en utilisant **'sudo'** pour les privilèges d'administration) :
 ```sh
-sudo python ./secure.py
+sudo python ./SECURE/secure.py
 ```
 5. Entrez une adresse IP ou un nom de domaine lorsque vous y êtes invité.
 6. Le script exécute toutes les commandes définies dans le dictionnaire **'command_options'** avec la cible spécifiée. Il est donc très simple d'ajouter de nouvelles commandes si besoin.
