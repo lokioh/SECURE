@@ -1,6 +1,6 @@
 # SECURE - Security Evaluation and Compliance Unified Reporting Engine
 
-![SECURE logo](./layout/img/SECURE_logo.png)
+![SECURE logo](./img/SECURE_logo.png)
 
 ## Description
 SECURE is a powerful automated penetration testing tool designed to evaluate the security of your network and generate compliance reports. With a comprehensive set of features, including port scanning, vulnerability testing, and compliance reporting, SECURE is your go-to tool for all your security testing needs.
