@@ -32,17 +32,18 @@ Le script propose les fonctionnalités suivantes:
 
 1. Assurez-vous d'avoir les pré-requis mentionnés ci-dessous.
 2. Placez le script dans un répertoire de votre choix.
-3. Ouvrez un terminal et accédez au répertoire où se trouve le script.
-4. Exécutez le script à l'aide de la commande suivante (en utilisant **'sudo'** pour les privilèges d'administration) :
+3. AJoutez votre propre clé API pour l'utilisatio de Shodan dans **"YOUR_API_KEY"**
+4. Ouvrez un terminal et accédez au répertoire où se trouve le script.
+5. Exécutez le script à l'aide de la commande suivante (en utilisant **'sudo'** pour les privilèges d'administration) :
 ```sh
 sudo python ./SECURE/secure.py
 ```
-5. Entrez une adresse IP ou un nom de domaine.
-6. Le script exécute toutes les commandes définies dans le dictionnaire **'command_options'** avec la cible spécifiée. Il est donc très simple d'ajouter de nouvelles commandes si besoin.
-7. Une recherche Shodan est effectuée pour obtenir des informations supplémentaires sur la cible.
-8. Les résultats de chaque commande exécutée sont enregistrés dans des fichiers **'.txt'**.
-9. Un rapport final est généré en rassemblant tous les fichiers **'.txt'** dans un fichier **'resultats.txt'**.
-10. Le rapport final est enregistré dans le répertoire courant.
+6. Entrez une adresse IP ou un nom de domaine.
+7. Le script exécute toutes les commandes définies dans le dictionnaire **'command_options'** avec la cible spécifiée. Il est donc très simple d'ajouter de nouvelles commandes si besoin.
+8. Une recherche Shodan est effectuée pour obtenir des informations supplémentaires sur la cible.
+9. Les résultats de chaque commande exécutée sont enregistrés dans des fichiers **'.txt'**.
+10. Un rapport final est généré en rassemblant tous les fichiers **'.txt'** dans un fichier **'resultats.txt'**.
+11. Le rapport final est enregistré dans le répertoire courant.
 
 ## Pré-requis
 
@@ -123,3 +124,7 @@ Le script est composé de plusieurs fonctions pour accomplir différentes tâche
 
 1. Le dictionnaire **'command_options'** contient des paires clé-valeur, où la clé représente le nom de la commande et la valeur représente les options associées à cette commande.
 2. Le dictionnaire **'command_options'** permet de spécifier les options pour chaque commande utilisée dans le code précédent, comme dans la fonction **'run_command'**. Cela permet de personnaliser les options pour chaque commande et de les passer aux appels de fonction appropriés.
+
+## Exécution du script
+
+![exe](./layout/gif/exe.gif)
